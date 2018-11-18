@@ -47,5 +47,15 @@ namespace Project1Console.Classes
         {
             var lst = new List<string>();
         }
+
+        public void Method9()
+        {
+
+        }
+
+        public void Method10()
+        {
+           // change
+        }
     }
 }
