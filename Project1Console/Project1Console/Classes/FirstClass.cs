@@ -37,5 +37,10 @@ namespace Project1Console.Classes
         {
 
         }
+
+        public void Method7()
+        {
+
+        }
     }
 }
