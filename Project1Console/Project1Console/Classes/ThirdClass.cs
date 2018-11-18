@@ -8,5 +8,9 @@ namespace Project1Console.Classes
 {
     class ThirdClass
     {
+        public void Method1()
+        {
+
+        }
     }
 }
