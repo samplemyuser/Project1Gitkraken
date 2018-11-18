@@ -45,7 +45,7 @@ namespace Project1Console.Classes
 
         public void Method8()
         {
-
+            var lst = new List<string>();
         }
     }
 }
