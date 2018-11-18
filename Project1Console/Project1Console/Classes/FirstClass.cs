@@ -8,5 +8,9 @@ namespace Project1Console.Classes
 {
     class FirstClass
     {
+        public void Method1()
+        {
+
+        }
     }
 }
