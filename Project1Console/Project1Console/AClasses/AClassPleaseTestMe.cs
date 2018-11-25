@@ -13,6 +13,12 @@ namespace Project1Console.AClasses
         public abstract string Name { get; set; }
         public DateTime BirthDate { get; set; }
 
+        protected AClassPleaseTestMe(int id, string name)
+        {
+            this.Id = id;
+            this.Name = name;
+        }
+
         public int ReturnId()
         {
             return this.Id;
@@ -26,12 +32,6 @@ namespace Project1Console.AClasses
         public string ReturnIdAndName()
         {
             return $"Id : is {this.Id} , Name is {this.Name}";
-        }
-
-        protected AClassPleaseTestMe(int id,string name)
-        {
-            this.Id = id;
-            this.Name = name;
         }
     }
 }
