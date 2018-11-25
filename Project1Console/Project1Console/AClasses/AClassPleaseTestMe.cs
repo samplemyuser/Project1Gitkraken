@@ -13,10 +13,11 @@ namespace Project1Console.AClasses
         public abstract string Name { get; set; }
         public DateTime BirthDate { get; set; }
 
-        protected AClassPleaseTestMe(int id, string name)
+        protected AClassPleaseTestMe(int id, string name,DateTime birthDate)
         {
             this.Id = id;
             this.Name = name;
+            this.BirthDate = birthDate;
         }
 
         public int ReturnId()
