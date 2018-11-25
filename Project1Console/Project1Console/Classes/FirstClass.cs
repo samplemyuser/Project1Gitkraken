@@ -57,5 +57,19 @@ namespace Project1Console.Classes
         {
            // change
         }
+
+        public void Method11()
+        {
+
+        }
+
+        public void Method12()
+        {
+
+        }
+        public void Method13()
+        {
+            //Something
+        }
     }
 }
