@@ -16,5 +16,10 @@ namespace Project1Console.AClasses
         {
             return this.Name;
         }
+
+        public string ReturnIdAndName()
+        {
+            return $"Id : is {this.Id} , Name is {this.Name}";
+        }
     }
 }
