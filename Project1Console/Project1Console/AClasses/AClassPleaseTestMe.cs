@@ -11,5 +11,15 @@ namespace Project1Console.AClasses
     {
         public abstract int Id { get; set; }
         public abstract string Name { get; set; }
+
+        public string ReturnName()
+        {
+            return this.Name;
+        }
+
+        public string ReturnIdAndName()
+        {
+            return $"Id : is {this.Id} , Name is {this.Name}";
+        }
     }
 }
