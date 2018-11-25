@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Project1Console.Interfaces
 {
-    public class ITestMePlease
+    public interface ITestMePlease
     {
         int Id { get; set; }
         string Name { get; set; }
