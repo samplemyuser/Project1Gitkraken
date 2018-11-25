@@ -11,7 +11,7 @@ namespace Project1Console.AClasses
     {
         public abstract int Id { get; set; }
         public abstract string Name { get; set; }
-
+        public DateTime BirthDate { get; set; }
 
         public int ReturnId()
         {
