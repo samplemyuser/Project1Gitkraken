@@ -12,6 +12,12 @@ namespace Project1Console.AClasses
         public abstract int Id { get; set; }
         public abstract string Name { get; set; }
 
+
+        public int ReturnId()
+        {
+            return this.Id;
+        }
+
         public string ReturnName()
         {
             return this.Name;
