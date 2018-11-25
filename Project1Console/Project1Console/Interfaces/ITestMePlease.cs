@@ -10,5 +10,7 @@ namespace Project1Console.Interfaces
     {
         int Id { get; set; }
         string Name { get; set; }
+
+        DateTime BirthDate { get; set; }
     }
 }
