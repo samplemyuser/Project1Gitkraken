@@ -68,6 +68,11 @@ namespace Project1Console.Classes
 
         }
 
+        public void Method12()
+        {
+
+        }
+
         public void Method13()
         {
             //Something
