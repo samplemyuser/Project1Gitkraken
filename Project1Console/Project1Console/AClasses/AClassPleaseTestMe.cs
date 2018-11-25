@@ -27,5 +27,11 @@ namespace Project1Console.AClasses
         {
             return $"Id : is {this.Id} , Name is {this.Name}";
         }
+
+        protected AClassPleaseTestMe(int id,string name)
+        {
+            this.Id = id;
+            this.Name = name;
+        }
     }
 }
