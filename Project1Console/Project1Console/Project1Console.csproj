@@ -43,9 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AClasses\AClassPleaseTestMe.cs" />
     <Compile Include="Classes\FirstClass.cs" />
     <Compile Include="Classes\SecondClass.cs" />
     <Compile Include="Classes\ThirdClass.cs" />
+    <Compile Include="Interfaces\ITestMePlease.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
